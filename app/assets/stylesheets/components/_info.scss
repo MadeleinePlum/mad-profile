@@ -1,0 +1,46 @@
+.list {
+  list-style: none;
+  padding: 0px;
+}
+
+li {
+  font-size: 16px;
+  padding: 2px;
+  font-family: $text;
+}
+
+.uni {
+  padding: 8px;
+}
+
+.project {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 32px;
+}
+
+.project-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 32px;
+}
+
+.airlol {
+  font-family: "Gluten", sans-serif;
+  color: rgb(216, 59, 85);
+  font-size: 40px;
+  margin-left: 32px;
+}
+
+.skills {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.skill2 {
+  padding-left: 64px;
+}
