@@ -1,0 +1,28 @@
+.navbar {
+  background-color: #FFFBEB;
+  margin: auto 0;
+  margin-left: 24px;
+}
+
+.navlink {
+  color: $green;
+  font-size: 20px;
+  padding: 8px;
+  margin-top: 8px;
+    &:hover {
+      text-decoration: underline;
+    }
+}
+
+a {
+  text-decoration: none;
+}
+
+// .navbar-expand-lg {
+//   background-color: #ffffff;
+// }
+
+.navlogo {
+  color: $green;
+  font-size: 40px;
+}
