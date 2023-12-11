@@ -11,6 +11,14 @@
       padding-top: 1px;
       border-radius: 8px;
     }
+
+    &.dark-mode {
+      color: white;
+      &:hover {
+        color: $darkmode;
+        background-color: white;
+      }
+    }
 }
 
 .projectlink {
@@ -28,5 +36,13 @@
       transition: 0.4s;
       padding: 5px;
       padding-top: 1px;
+    }
+    &.dark-mode {
+      color: white;
+      border: 1px solid white;
+      &:hover {
+        background-color: white;
+        color: $darkmode;
+      }
     }
 }
