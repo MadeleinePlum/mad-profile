@@ -1,4 +1,11 @@
 <div class="container click m-5" data-controller="changecolor" >
+
+  <div class="darkbutton" data-controller="darkmode">
+    <div>
+      <button data-action="click->darkmode#toggleDarkMode" data-darkmode-target="darkmode.button">Dark Mode</button>
+    </div>
+  </div>
+
   <div class="buttonbg" data-changecolor-target="clickableElement">
     <button data-action="click->changecolor#change click->changecolor#changeButton" data-changecolor-target="clickableButton" type="button" class="btn">Click Me</button>
   </div>

@@ -3,6 +3,9 @@
   font-size: 24px;
   margin: 0;
   color: $green;
+  &.dark-mode {
+    color: white;
+  }
 }
 
 .name {
@@ -10,6 +13,9 @@
   margin: 0;
   font-family: $header;
   color: $green;
+  &.dark-mode {
+    color: white;
+  }
 }
 
 .subtitle {
@@ -21,4 +27,7 @@
   font-size: 32px;
   font-family: $text;
   color: $green;
+  &.dark-mode {
+    color: $darkmode;
+  }
 }

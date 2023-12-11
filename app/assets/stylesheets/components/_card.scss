@@ -4,4 +4,9 @@
   // padding: 24px;
   // border-radius: 2px;
   border: none !important;
+
+    &.dark-mode {
+    background-color: $darkmode;
+    color: white;
+  }
 }

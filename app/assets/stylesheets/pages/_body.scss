@@ -1,8 +1,16 @@
 body {
   font-family: $text;
   background-color: #FFFBEB;
+
+  &.dark-mode {
+    background-color: $darkmode;
+    color: white;
+  }
 }
 
 h3 {
   color: $green;
+  &.dark-mode {
+    color: $blue;
+  }
 }

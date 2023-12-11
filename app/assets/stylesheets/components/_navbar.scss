@@ -2,6 +2,12 @@
   background-color: #FFFBEB;
   margin: auto 0;
   margin-left: 24px;
+
+   &.dark-mode {
+    // Dark mode styles for the navbar
+    background-color: $darkmode;
+    color: white;
+  }
 }
 
 .navlink {
@@ -11,6 +17,9 @@
   margin-top: 8px;
     &:hover {
       text-decoration: underline;
+    }
+    &.dark-mode {
+      color: white;
     }
 }
 
@@ -25,4 +34,7 @@ a {
 .navlogo {
   color: $green;
   font-size: 40px;
+  &.dark-mode {
+    color: white;
+  }
 }
